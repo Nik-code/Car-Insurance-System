@@ -44,7 +44,3 @@ Contributions to this project are always welcome. If you find a bug or have a fe
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details.
