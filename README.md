@@ -1,46 +1,66 @@
-# Insurance System Project
+# Car Insurance Management System
 
-This is a database project that includes 6 interlinked tables such as car, policy, etc (See ER DIAGARAM.pdf file for a detailed structure). It allows the user to access and make changes to the database through a Python script using the terminal. 
+## Overview
+The Car Insurance Management System is a comprehensive database application designed to efficiently manage car insurance policies, claims, and related information. This project demonstrates proficiency in database design, SQL querying, and Python programming.
+
+## Features
+- Manage information for cars, owners, policies, drivers, workshops, and claims
+- Add, update, delete, and view records in all tables
+- Execute custom SQL queries for advanced data retrieval and analysis
+- User-friendly command-line interface for easy interaction
+
+## Technologies Used
+- Python 3
+- MySQL
+- mysql-connector-python
 
 ## Installation
 
-To install this project, simply clone the repository to your local machine:
+1. Clone the repository:
+   ```
+   git clone https://github.com/Nik-code/Car-Insurance-System.git
+   ```
 
-```
-git clone https://github.com/your-username/Insurance-System-Project.git
-```
+2. Install the required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
 
-## Dependencies
+3. Set up your MySQL database using the provided schema in `Database-Schema.sql`.
 
-This project requires the following dependencies:
-
-- Python 3
-- MySQL Server
-
-To install the Python dependencies, run:
-
-```
-pip install -r requirements.txt
-```
+4. Update the database connection details in `connector.py`:
+   ```python
+   mydb = mysql.connector.connect(
+       host="localhost",
+       user="your_username",
+       password="your_password",
+       database="your_database_name"
+   )
+   ```
 
 ## Usage
 
-To start using the project, navigate to the project directory and run the following command in your terminal:
-
+Run the application using:
 ```
 python connector.py
 ```
 
-This will launch the terminal-based user interface that allows you to add, update, delete, and show records in the database, as well as execute queries.
+Follow the on-screen prompts to interact with the database.
 
-## Database Schema
-
-The ER diagram for the database can be found in the file `Insurance-System-ER-Diagram.pdf`.
+## Project Structure
+- `connector.py`: Main application file with database operations
+- `Database-Schema.sql`: SQL schema for creating the database tables
+- `ER DIAGRAM.pdf`: Entity-Relationship diagram of the database structure
+- `LICENSE`: MIT License file
+- `requirements.txt`: List of Python dependencies
 
 ## Contributing
-
-Contributions to this project are always welcome. If you find a bug or have a feature request, please open an issue on the GitHub repository. If you'd like to contribute code, please fork the repository and submit a pull request.
+Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/Nik-code/Car-Insurance-System/issues) if you want to contribute.
 
 ## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+## Contact
+Your Name - [Your Email]
+
+Project Link: [https://github.com/Nik-code/Car-Insurance-System](https://github.com/Nik-code/Car-Insurance-System)
