@@ -61,6 +61,6 @@ Contributions, issues, and feature requests are welcome. Feel free to check [iss
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-Your Name - [Your Email]
+Priyansh Kumar Singh - [priyanshnikka@gmail.com]
 
-Project Link: [https://github.com/Nik-code/Car-Insurance-System](https://github.com/Nik-code/Car-Insurance-System)
+Portfolio Link: [priyanshnik.com](https://priyanshnik.com)
